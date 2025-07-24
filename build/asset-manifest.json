@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aac59c2e.css",
+    "main.js": "/static/js/main.d3930804.js",
+    "static/media/abdulrehman2.png": "/static/media/abdulrehman2.607be466adb968378fe7.png",
+    "static/media/t2.png": "/static/media/t2.92794404c530ab236b05.png",
+    "static/media/t1.png": "/static/media/t1.3aae755fb57029bbc47f.png",
+    "static/media/abdulrehman.pdf": "/static/media/abdulrehman.7229194fd0bfc65e58ed.pdf",
+    "static/media/t3.png": "/static/media/t3.597e2bca02ab2b941760.png",
+    "static/media/hand.png": "/static/media/hand.05af7aa34adf9f53e67e.png",
+    "index.html": "/index.html",
+    "main.aac59c2e.css.map": "/static/css/main.aac59c2e.css.map",
+    "main.d3930804.js.map": "/static/js/main.d3930804.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aac59c2e.css",
+    "static/js/main.d3930804.js"
+  ]
+}
