@@ -1,6 +1,6 @@
-# Ahad Ali - Portfolio Website
+# AbdulRehman - Portfolio Website
 
-This portfolio website showcases information about me, my skills, qualifications, testimonials, contact details, and projects. It provides a comprehensive overview of my professional journey as a Full-Stack Developer, using clean UI and intuitive design to display my work.
+This portfolio website showcases information about me, my skills, qualifications, testimonials, contact details, and projects. It provides a comprehensive overview of my professional journey as a Full-Stack & Mern Stack developer, using clean UI and intuitive design to display my work.
 
 ## Technologies Used
 
@@ -26,7 +26,8 @@ This portfolio website showcases information about me, my skills, qualifications
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/ahadalireach/portfolio.git
+   https://github.com/Meer-Abdulrehman/portfolio.git
+
    ```
 
    Alternatively, you can unzip the file if you downloaded it as a zip.
@@ -76,8 +77,8 @@ This portfolio website showcases information about me, my skills, qualifications
 **Live Demo**
 
 - Live Web: [ahadali.netlify.app](https://ahadali.netlify.app/)
-- GitHub Repo: [ahadalireach/portfolio](https://github.com/ahadalireach/portfolio) (Give it a Star!)
+- GitHub Repo: [ahadalireach/portfolio](https://github.com/Meer-Abdulrehman/portfolio) (Give it a Star!)
 
 **Contact**
 
-For any questions or feedback, please reach out to me at [ahadali.reach@gmail.com](mailto:ahadali.reach@gmail.com).
+For any questions or feedback, please reach out to me at [ahadali.reach@gmail.com](mailto:abdulrehmantech.me@gmail.com).
