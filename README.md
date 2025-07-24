@@ -76,9 +76,9 @@ This portfolio website showcases information about me, my skills, qualifications
 
 **Live Demo**
 
-- Live Web: [ahadali.netlify.app](https://ahadali.netlify.app/)
-- GitHub Repo: [ahadalireach/portfolio](https://github.com/Meer-Abdulrehman/portfolio) (Give it a Star!)
+- Live Web: [meer-abdulrehman.netlify.app](https://meer-abdulrehman.netlify.app/)
+- GitHub Repo: [Meer-Abdulrehman/portfolio](https://github.com/Meer-Abdulrehman/portfolio) (Give it a Star!)
 
 **Contact**
 
-For any questions or feedback, please reach out to me at [ahadali.reach@gmail.com](mailto:abdulrehmantech.me@gmail.com).
+For any questions or feedback, please reach out to me at [abdulrehmantech.me@gmail.com](mailto:abdulrehmantech.me@gmail.com).
