@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # AbdulRehman - Portfolio Website
 
 This portfolio website showcases information about me, my skills, qualifications, testimonials, contact details, and projects. It provides a comprehensive overview of my professional journey as a Full-Stack & Mern Stack developer, using clean UI and intuitive design to display my work.
+=======
+# Ahad Ali - Portfolio Website
+
+This portfolio website showcases information about me, my skills, qualifications, testimonials, contact details, and projects. It provides a comprehensive overview of my professional journey as a Full-Stack Developer, using clean UI and intuitive design to display my work.
+>>>>>>> f8186192 (Initial commit)
 
 ## Technologies Used
 
@@ -26,8 +32,12 @@ This portfolio website showcases information about me, my skills, qualifications
 1. **Clone the Repository**
 
    ```bash
+<<<<<<< HEAD
    https://github.com/Meer-Abdulrehman/portfolio.git
 
+=======
+   git clone https://github.com/ahadalireach/portfolio.git
+>>>>>>> f8186192 (Initial commit)
    ```
 
    Alternatively, you can unzip the file if you downloaded it as a zip.
@@ -76,9 +86,18 @@ This portfolio website showcases information about me, my skills, qualifications
 
 **Live Demo**
 
+<<<<<<< HEAD
 - Live Web: [meer-abdulrehman.netlify.app](https://meer-abdulrehman.netlify.app/)
 - GitHub Repo: [Meer-Abdulrehman/portfolio](https://github.com/Meer-Abdulrehman/portfolio) (Give it a Star!)
 
 **Contact**
 
 For any questions or feedback, please reach out to me at [abdulrehmantech.me@gmail.com](mailto:abdulrehmantech.me@gmail.com).
+=======
+- Live Web: [ahadali.netlify.app](https://ahadali.netlify.app/)
+- GitHub Repo: [ahadalireach/portfolio](https://github.com/ahadalireach/portfolio) (Give it a Star!)
+
+**Contact**
+
+For any questions or feedback, please reach out to me at [ahadali.reach@gmail.com](mailto:ahadali.reach@gmail.com).
+>>>>>>> f8186192 (Initial commit)
