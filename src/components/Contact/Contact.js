@@ -15,7 +15,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">
                 <a
-                  href="mailto:ahadali.reach@gmail.com"
+                  href="mailto:abdulrehmantech.me@gmail.com"
                   target="_blank"
                   className="contact__button"
                   rel="noopener noreferrer"

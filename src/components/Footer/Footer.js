@@ -4,17 +4,17 @@ const Footer = () => {
   const footerData = [
     {
       id: 1,
-      url: "#about",
+      url: "about",
       text: "About",
     },
     {
       id: 2,
-      url: "#skills",
+      url: "skills",
       text: "Skills",
     },
     {
       id: 3,
-      url: "#portfolio",
+      url: "portfolio",
       text: "Projects",
     },
   ];
