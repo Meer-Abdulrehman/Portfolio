@@ -10,12 +10,12 @@ const Social = () => {
         <i className="ul uil-github"></i>
       </a>
       <a
-        href="https://www.linkedin.com/in/abdulrehman1057/"
+        href="#!"
         className="home__social-icon"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="ul uil-linkedin"></i>
+        <i className="ul uil-twitter"></i>
       </a>
       <a
         href="#"
