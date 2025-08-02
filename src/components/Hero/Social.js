@@ -18,7 +18,7 @@ const Social = () => {
         <i className="ul uil-twitter"></i>
       </a>
       <a
-        href="#"
+        href="#!"
         className="home__social-icon"
         target="_blank"
         rel="noopener noreferrer"
