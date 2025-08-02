@@ -50,13 +50,14 @@ const Footer = () => {
             <i className="bx bxl-linkedin"></i>
           </a>
           <a
-            href="#"
-            className="footer__social-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="bx bxl-twitter"></i>
-          </a>
+  href="https://twitter.com/"
+  className="footer__social-link"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i className="bx bxl-twitter"></i>
+</a>
+
         </div>
         <span className="footer_copy">
           © {new Date().getFullYear()} AbdulRehman. All Rights Reserved.
