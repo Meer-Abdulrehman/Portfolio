@@ -180,3 +180,25 @@
     font-size: var(--small-font-size);
   }
 }
+.view-all-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.view-all-btn {
+  padding: 0.75rem 1.5rem;
+  font-size: var(--font-medium);
+  background-color: #000;   /* Black background */
+  color: #fff;              /* White text */
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.view-all-btn:hover {
+  background-color: #fff;   /* White background */
+  color: #000;              /* Black text */
+  transform: scale(1.05);
+}
