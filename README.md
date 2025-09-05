@@ -36,7 +36,7 @@ This portfolio website showcases information about me, my skills, qualifications
    https://github.com/Meer-Abdulrehman/portfolio.git
 
 =======
-   git clone https://github.com/ahadalireach/portfolio.git
+   git clone https://github.com/Meer-Abdulrehman/portfolio.git
 >>>>>>> f8186192 (Initial commit)
    ```
 
