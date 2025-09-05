@@ -15,11 +15,12 @@
 
 .projects__filters-item {
   color: var(--title-color);
-  padding: 0.25rem 0.75rem;
+  padding: 0.35rem 0.9rem;
   font-size: var(--font-medium);
   border-radius: 0.5rem;
   text-transform: capitalize;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .active__filters-item,
@@ -38,101 +39,59 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   width: 100%;
   max-width: 23em;
-  padding: 1em;
+  height: 330px; /* fixed height for consistency */
+  padding: 1.2em;
   background: #fff;
-  box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
+  box-shadow: 0 4px 12px rgba(32, 32, 36, 0.12);
   transition: all 0.35s ease;
   border-radius: 1rem;
   overflow: hidden;
 }
 
-.card::before,
-.card::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: var(--blue-color);
-  height: 4px;
-}
-
-.card::before {
-  width: 0;
-  opacity: 0;
-  transition: opacity 0 ease, width 0 ease;
-  transition-delay: 0.5s;
-}
-
-.card::after {
-  width: 100%;
-  background: white;
-  transition: width 0.5s ease;
-}
-
 .card .content {
-  width: 100%;
-  max-width: 18em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .card .h6 {
   color: var(--title-color);
   font-weight: 600;
   text-transform: uppercase;
-  margin: 0 0 1rem 0;
-  letter-spacing: 2px;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
 }
 
-.card .hover_content {
+.card .description {
+  flex-grow: 1;
+  color: #555;
+  line-height: 1.5;
+  font-size: 0.9rem;
   overflow: hidden;
-  max-height: 0;
-  transform: translateY(1em);
-  transition: all 0.55s ease;
-}
-
-.card .hover_content p {
-  margin: 1.5em 0 0;
-  color: #6e6e70;
-  line-height: 1.4em;
+  display: -webkit-box;
+  -webkit-line-clamp: 6; /* max lines */
+  -webkit-box-orient: vertical;
 }
 
 .card:hover {
-  box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.12);
-}
-
-.card:hover::before {
-  width: 100%;
-  opacity: 1;
-  transition: opacity 0.5s ease, width 0.5s ease;
-  transition-delay: 0;
-}
-
-.card:hover::after {
-  width: 0;
-  opacity: 0;
-  transition: width 0 ease;
-}
-
-.card:hover .logo {
-  margin-bottom: 0.5em;
-}
-
-.card:hover .hover_content {
-  max-height: 10em;
-  transform: none;
+  box-shadow: 0 12px 24px rgba(32, 32, 36, 0.2);
+  transform: translateY(-6px);
 }
 
 .project__button {
   color: var(--text-color);
   font-size: var(--small-font-size);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   column-gap: 0.25rem;
-  margin: 1rem 0 0 0;
+  margin-top: 1rem;
+  font-weight: 500;
+  transition: 0.3s ease;
 }
 
 .project__button-icon {
@@ -142,44 +101,10 @@
 
 .project__button:hover,
 .project__button:hover .project__button-icon {
-  transform: translate(0.25rem);
+  transform: translateX(0.25rem);
   color: var(--blue-color);
 }
 
-/*=============== BREAKPOINTS ===============*/
-/* For large devices */
-@media screen and (max-width: 992px) {
-}
-
-/* For medium devices */
-@media screen and (max-width: 768px) {
-  .projects__container {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.75rem;
-  }
-}
-
-/* For small devices */
-@media screen and (max-width: 576px) {
-  .projects__container {
-    grid-template-columns: 1fr;
-    gap: 0.75rem;
-  }
-
-  .project__img {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .projects__filters {
-    column-gap: 0.25rem;
-  }
-
-  .projects__filters-item {
-    font-size: var(--small-font-size);
-  }
-}
 .view-all-container {
   display: flex;
   justify-content: center;
@@ -189,8 +114,8 @@
 .view-all-btn {
   padding: 0.75rem 1.5rem;
   font-size: var(--font-medium);
-  background-color: #000;   /* Black background */
-  color: #fff;              /* White text */
+  background-color: #000;
+  color: #fff;
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -198,7 +123,25 @@
 }
 
 .view-all-btn:hover {
-  background-color: #fff;   /* White background */
-  color: #000;              /* Black text */
+  background-color: #fff;
+  color: #000;
   transform: scale(1.05);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .projects__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .card {
+    height: auto;
+    min-height: 280px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .projects__container {
+    grid-template-columns: 1fr;
+  }
 }

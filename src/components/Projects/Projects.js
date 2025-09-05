@@ -38,7 +38,7 @@ const projectsData = [
     id: 4,
     title: "Dairy To Home Service",
     description:
-      "A full-featured dairy delivery platform with, real-time order tracking, and secure online payments with real time map integration.",
+      "Dairy To Home Service is a full-stack Django project that enables users to order fresh dairy products online with real-time order management. It includes secure authentication, smooth checkout, and an admin dashboard for managing products, orders, and deliveries.",
     url: "http://dairyfarmmilk-service.netlify.app/",
     category: "full stack",
   },
@@ -46,23 +46,22 @@ const projectsData = [
     id: 5,
     title: "JunkyBites",
     description:
-      "A modern online food ordering platform for JunkyBites, offering fast delivery, delicious meals, and a seamless user experience.",
+      "JunkyBites is a React-based restaurant website designed with a clean and modern UI. It allows users to explore the menu and place online food orders with ease. The site is fully responsive, providing a seamless experience across all devices.",
     url: "https://junkybites.netlify.app/",
     category: "frontend",
   },
   {
-    id: 6,
-    title: "Trippy Travels",
-    description:
-      "A sleek, responsive tourism website offering destination highlights, travel packages, and seamless booking experience.",
-    url: "https://trippytours-travels.netlify.app/",
-    category: "frontend",
-  },
+  id: 6,
+  title: "Trippy Travels",
+  description: "Trippy Travels is a React-based tourism website offering destination highlights and curated travel packages. It provides a user-friendly interface with smooth navigation and modern responsive design. The platform ensures a seamless booking experience across all devices.",
+  url: "https://trippytours-travels.netlify.app/",
+  category: "frontend",
+},
+
   {
     id: 7,
     title: "Color Craft",
-    description:
-      "A tool for designers to explore colors, palettes, and transparency effects with ease.",
+    description:"ColorCraft is a creative React project designed for exploring and managing color palettes. It provides an interactive and responsive interface for selecting, customizing, and previewing colors. The platform helps designers and developers simplify their workflow with modern UI features.",
     url: "https://colorcraft-new.netlify.app/",
     category: "frontend",
   },
