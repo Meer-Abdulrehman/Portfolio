@@ -112,7 +112,7 @@ const Projects = () => {
       );
       setShowAll(true); // Full stack / Frontend me hamesha sab show
     }
-  }, [item]);
+  }, [item,projectsData]);
 
   return (
     <section className="section portfolio__projects" id="projects">
