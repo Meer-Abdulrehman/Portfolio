@@ -36,7 +36,7 @@ This portfolio website showcases information about me, my skills, qualifications
    https://github.com/Meer-Abdulrehman/portfolio.git
 
 =======
-   git clone https://github.com/ahadalireach/portfolio.git
+   git clone https://github.com/Meer-Abdulrehman/portfolio.git
 >>>>>>> f8186192 (Initial commit)
    ```
 
@@ -94,10 +94,10 @@ This portfolio website showcases information about me, my skills, qualifications
 
 For any questions or feedback, please reach out to me at [abdulrehmantech.me@gmail.com](mailto:abdulrehmantech.me@gmail.com).
 =======
-- Live Web: [ahadali.netlify.app](https://ahadali.netlify.app/)
-- GitHub Repo: [ahadalireach/portfolio](https://github.com/ahadalireach/portfolio) (Give it a Star!)
+- Live Web: [meer-abdulrehman.netlify.app](https://meer-abdulrehman.netlify.app/)
+- GitHub Repo: [Meer-Abdulrehman/portfolio](https://github.com/Meer-Abdulrehman/portfolio) (Give it a Star!)
 
 **Contact**
 
-For any questions or feedback, please reach out to me at [ahadali.reach@gmail.com](mailto:ahadali.reach@gmail.com).
+For any questions or feedback, please reach out to me at [abdulrehmantech.me@gmail.com](mailto:abdulrehmantech.me@gmail.com).
 >>>>>>> f8186192 (Initial commit)
