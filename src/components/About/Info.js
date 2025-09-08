@@ -10,7 +10,7 @@ const Info = () => {
         <i className="bx bx-briefcase-alt" />
 
         <h3 className="about__title">Completed</h3>
-        <p className="about__subtitle">10+ Projects</p>
+        <p className="about__subtitle">15+ Projects</p>
       </div>
       <div className="about__box">
         <i className="bx bx-smile" />
