@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import "./Projects.css";
 
 const Projects = () => {
-  const projectsData = [
+  const projectsData = useMemo(() => [
     {
       id: 1,
       title: "QuickShow",
@@ -91,12 +91,22 @@ const Projects = () => {
       url: "https://cofee-websitebyahsaan.netlify.app/#home",
       category: "frontend",
     },
-  ];
 
-  const projectsNav = [
+    {
+      id: 11,
+      title: "ShanadEstate",
+      description:
+        "A full-stack real estate platform built with the MERN stack, enabling users to browse, search, and filter properties easily. It features secure authentication, property listings with images and details, and a responsive design for seamless user experience across devices. Admin dashboard allows managing properties, users, and inquiries efficiently.",
+      url: "https://full-stack-projectmernestate-production.up.railway.app/",
+      category: "full stack",
+    },
+
+  ], []);
+
+  const projectsNav = useMemo(() => [
     "All",
-    ...new Set(projectsData.map((project) => project.category)),
-  ];
+    ...new Set(projectsData.map((project) => project.category))
+  ], [projectsData]);
 
   const [item, setItem] = useState({ name: "All" });
   const [projects, setProjects] = useState([]);
@@ -112,7 +122,7 @@ const Projects = () => {
       );
       setShowAll(true); // Full stack / Frontend me hamesha sab show
     }
-  }, [item,projectsData]);
+  }, [item, projectsData]);
 
   return (
     <section className="section portfolio__projects" id="projects">
