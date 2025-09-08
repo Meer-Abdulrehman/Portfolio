@@ -96,7 +96,7 @@ const Projects = () => {
       id: 11,
       title: "ShanadEstate",
       description:
-        "A full-stack real estate platform built with the MERN stack, enabling users to browse, search, and filter properties easily. It features secure authentication, property listings with images and details, and a responsive design for seamless user experience across devices. Admin dashboard allows managing properties, users, and inquiries efficiently.",
+        "A full-stack real estate platform built with the MERN stack, enabling users to browse, search, and filter properties easily. It features secure authentication, property listings with images and details, and responsive design.",
       url: "https://full-stack-projectmernestate-production.up.railway.app/",
       category: "full stack",
     },
