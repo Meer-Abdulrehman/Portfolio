@@ -35,7 +35,7 @@ const Contact = () => {
                   className="contact__button"
                   rel="noopener noreferrer"
                 >
-                  +923192517146
+                  +923204335746
                 </a>
               </span>
             </div>
