@@ -31,7 +31,7 @@ const Projects = () => {
       id: 10,
       title: "FastBasket",
       description:
-        "A full-stack e-commerce platform built with the MERN stack, featuring secure authentication and role-based access for buyers, sellers, and admin. Sellers can add and manage products, while the admin dashboard provides full control over users, orders, and inventory. The platform includes cart, checkout, and payment integration .",
+        "A full-stack e-commerce platform built with the MERN stack, featuring secure authentication and role-based access for buyers, sellers, and admin. Sellers can add and manage products, while the admin dashboard provides full control over users, orders, and inventory. .",
       url: "https://fastbasket.vercel.app/",
       category: "full stack",
     },
