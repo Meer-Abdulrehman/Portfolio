@@ -7,7 +7,7 @@ const Projects = () => {
       id: 1,
       title: "Prescripto",
       description:
-        "Prescripto is a full-stack doctor appointment booking platform built with the MERN stack, featuring secure authentication, slot,date&time selection, and online payments. It also includes an admin dashboard for managing patients, and bookings with automated email notifications for confirmations and reminders",
+        "Prescripto is a full-stack doctor appointment booking platform built with the MERN stack, featuring secure authentication, slot,date&time selection, and online payments. It also includes an admin dashboard for managing patients and appointments.",
       url: "https://appointment-booking-app-frontend-one.vercel.app/",
       category: "full stack",
     },
