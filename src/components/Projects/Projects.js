@@ -5,6 +5,25 @@ const Projects = () => {
   const projectsData = useMemo(() => [
     {
       id: 1,
+      title: "Prescripto",
+      description:
+        "Prescripto is a full-stack doctor appointment booking platform built with the MERN stack, featuring secure authentication, slot,date&time selection, and online payments. It also includes an admin dashboard for managing patients, and bookings with automated email notifications for confirmations and reminders",
+      url: "https://appointment-booking-app-frontend-one.vercel.app/",
+      category: "full stack",
+    },
+    
+     {
+      id: 1,
+      title: "Quick.Ai",
+      description:
+        "Quic.Ai is a full-stack SaaS AI platform built with the MERN stack, featuring secure authentication, resume reviewer, image generator, background remover etc and online payments for premium features.Built scalable cloud-based architecture ensuring high performance and reliability",
+      url: "https://quickai-gs.vercel.app/",
+      category: "full stack",
+    },
+    
+    
+    {
+      id: 1,
       title: "QuickShow",
       description:
         "QuickShow is a full-stack movie ticket booking platform built with the MERN stack, featuring secure authentication, seat selection, and online payments. It also includes an admin dashboard for managing movies, users, and bookings with automated email notifications for confirmations and reminders",
