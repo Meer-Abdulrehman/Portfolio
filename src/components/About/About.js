@@ -14,7 +14,7 @@ const About = () => {
           <Info />
           <p className="about__description">
             Hey, I’m AbdulRehman — a Software Engineer building full stack apps
-            with React/Next.js, Node.js, MongoDB, and Tailwind CSS and also use bootstrap, python, django and sqlite. I use Docker and GitHub Actions for smooth deployment.
+            with React/Next.js, Node.js, MongoDB, and Tailwind CSS and also use bootstrap, Node.js, express.js. I also used django and python. I use Docker and GitHub Actions for smooth deployment.
             <br />
             <br />I care about clean design, great UX, and building products
             that solve real problems and scale well.
