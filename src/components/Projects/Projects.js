@@ -113,10 +113,19 @@ const Projects = () => {
 
     {
       id: 11,
-      title: "ShanadEstate",
+      title: "GharBazar",
       description:
         "A full-stack real estate platform built with the MERN stack, enabling users to browse, search, and filter properties easily. It features secure authentication, property listings with images and details, and responsive design.",
-      url: "https://full-stack-projectmernestate-production.up.railway.app/",
+      url: "https://real-estate-app-gilt.vercel.app",
+      category: "full stack",
+    },
+    
+    {
+      id: 12,
+      title: "Crud Operation",
+      description:
+        "Implemented a full-featured CRUD (Create, Read, Update, Delete) system for managing [listings/users/products] in a real-time web application. Leveraged React for the frontend, Node.js/Express for the backend, and MongoDB for database storage. Key highlights",
+      url: "https://mern-stack-crud-operation.vercel.app",
       category: "full stack",
     },
 
